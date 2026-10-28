@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="app_list_for_clone_apps">
+        <item>com.whatsapp</item>
+        <item>com.instagram.android</item>
+        <item>com.google.android.apps.nbu.paisa.user</item>
+        <item>com.phonepe.app</item>
+        <item>net.one97.paytm</item>
+        <item>com.facebook.katana</item>
+        <item>org.telegram.messenger</item>
+        <item>com.twitter.android</item>
+        <item>in.amazon.mShop.android.shopping</item>
+        <item>com.flipkart.android</item>
+        <item>in.swiggy.android</item>
+        <item>com.application.zomato</item>
+        <item>com.snapchat.android</item>
+        <item>com.facebook.orca</item>
+    </string-array>
+    <integer-array name="config_availableColorModes">
+        <item>-1</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libjavacrypto.so</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-conscrypt.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+    </string-array>
+    <string-array name="config_highRefreshRateBlacklist">
+        <item>com.antutu.ABenchMark</item>
+        <item>com.antutu.benchmark.full.lite</item>
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.apps.youtube.music</item>
+    </string-array>
+    <string-array name="config_network_type_tcp_buffers">
+        <item>GPRS:4092,8760,48000,4096,8760,48000</item>
+        <item>EDGE:4093,26280,70800,4096,16384,70800</item>
+        <item>UMTS:58254,349525,1048576,58254,349525,1048576</item>
+        <item>CDMA:4094,87380,262144,4096,16384,262144</item>
+        <item>1xRTT:16384,32768,131072,4096,16384,102400</item>
+        <item>EvDo_0:4094,87380,262144,4096,16384,262144</item>
+        <item>EvDo_A:4094,87380,262144,4096,16384,262144</item>
+        <item>HSDPA:61167,367002,1101005,8738,52429,262114</item>
+        <item>HSUPA:40778,244668,734003,16777,100663,301990</item>
+        <item>HSPA:40778,244668,734003,16777,100663,301990</item>
+        <item>EvDo_B:4094,87380,262144,4096,16384,262144</item>
+        <item>eHRPD:131072,262144,1048576,4096,16384,524288</item>
+        <item>iDEN:4094,87380,262144,4096,16384,262144</item>
+        <item>LTE:2097152,4194304,8388608,262144,524288,2097152</item>
+        <item>HSPA+:122334,734003,2202010,32040,192239,576717</item>
+        <item>GSM:4092,8760,48000,4096,8760,48000</item>
+        <item>TD_SCDMA:58254,349525,1048576,58254,349525,1048576</item>
+        <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
+        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </string-array>
+    <string-array name="config_ntpServers">
+        <item>ntp://time.android.com</item>
+        <item>ntp://cn.pool.ntp.org</item>
+    </string-array>
+    <string-array name="config_packagesExemptFromSuspension">
+        <item>com.google.android.apps.wellbeing</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <string-array name="face_acquired_vendor">
+        <item>face near border!</item>
+        <item>face near border top left!</item>
+        <item>face near border top right!</item>
+        <item>face near border bottom left!</item>
+        <item>face near border botoom right!</item>
+        <item>face pose abnormal!</item>
+        <item>eye closure detected!</item>
+        <item>liveness failure!</item>
+        <item>face too blur!</item>
+        <item>Multiple faces detected</item>
+    </string-array>
+    <string-array name="face_error_vendor">
+        <item>camera failure!</item>
+        <item>camera unavailable!</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>ethernet,9,9,9,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_mcx,1001,0,3,60000,true</item>
+        <item>mobile_xcap,1002,0,3,60000,true</item>
+        <item>mobile_rcs,2001,0,3,60000,true</item>
+        <item>mobile_bip,2002,0,3,60000,true</item>
+        <item>mobile_vsim,2003,0,-1,60000,true</item>
+    </string-array>
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <color name="SIM_color_orange">#ffc19a88</color>
+    <color name="SIM_color_pink">#ffa3627a</color>
+    <color name="SIM_dark_mode_color_orange">#ffc19a88</color>
+    <color name="SIM_dark_mode_color_pink">#ffa3627a</color>
+    <integer name="config_longPressOnPowerBehavior">5</integer>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_safe_media_volume_index">12</integer>
+    <integer name="config_shutdownBatteryTemperature">990</integer>
+    <public type="array" name="app_list_for_clone_apps" id="0x7f010000" />
+    <public type="array" name="config_availableColorModes" id="0x7f010001" />
+    <public type="array" name="config_defaultPinnerServiceFiles" id="0x7f010003" />
+    <public type="array" name="config_highRefreshRateBlacklist" id="0x7f010004" />
+    <public type="array" name="config_network_type_tcp_buffers" id="0x7f010005" />
+    <public type="array" name="config_ntpServers" id="0x7f010006" />
+    <public type="array" name="config_packagesExemptFromSuspension" id="0x7f010007" />
+    <public type="array" name="config_tether_bluetooth_regexs" id="0x7f010008" />
+    <public type="array" name="config_tether_usb_regexs" id="0x7f010009" />
+    <public type="array" name="config_tether_wifi_regexs" id="0x7f01000a" />
+    <public type="array" name="face_acquired_vendor" id="0x7f01000c" />
+    <public type="array" name="face_error_vendor" id="0x7f01000d" />
+    <public type="array" name="networkAttributes" id="0x7f01000e" />
+    <public type="array" name="config_twoDigitNumberPattern" id="0x7f01000b" />
+    <public type="array" name="wfcOperatorErrorAlertMessages" id="0x7f01000f" />
+    <public type="array" name="wfcOperatorErrorNotificationMessages" id="0x7f010010" />
+    <public type="array" name="config_cdma_international_roaming_indicators" id="0x7f010002" />
+    <public type="bool" name="config_allow_ussd_over_ims" id="0x7f020000" />
+    <public type="bool" name="config_device_volte_available" id="0x7f020002" />
+    <public type="bool" name="config_device_vt_available" id="0x7f020003" />
+    <public type="bool" name="config_device_wfc_ims_available" id="0x7f020004" />
+    <public type="bool" name="config_enableMultiUserUI" id="0x7f020005" />
+    <public type="bool" name="config_setColorTransformAccelerated" id="0x7f020007" />
+    <public type="bool" name="config_smart_battery_available" id="0x7f020009" />
+    <public type="bool" name="config_switch_phone_on_voice_reg_state_change" id="0x7f02000a" />
+    <public type="bool" name="config_unplugTurnsOnScreen" id="0x7f02000b" />
+    <public type="bool" name="config_useDevInputEventForAudioJack" id="0x7f02000c" />
+    <public type="bool" name="skip_restoring_network_selection" id="0x7f02000e" />
+    <public type="bool" name="config_use_sim_language_file" id="0x7f02000d" />
+    <public type="color" name="SIM_color_orange" id="0x7f030000" />
+    <public type="color" name="SIM_color_pink" id="0x7f030001" />
+    <public type="color" name="SIM_dark_mode_color_orange" id="0x7f030002" />
+    <public type="color" name="SIM_dark_mode_color_pink" id="0x7f030003" />
+    <public type="integer" name="config_longPressOnPowerBehavior" id="0x7f040000" />
+    <public type="integer" name="config_multiuserMaximumUsers" id="0x7f040002" />
+    <public type="integer" name="config_safe_media_volume_index" id="0x7f040003" />
+    <public type="integer" name="config_shutdownBatteryTemperature" id="0x7f040004" />
+    <public type="integer" name="config_mobile_mtu" id="0x7f040001" />
+    <public type="integer" name="config_valid_wappush_index" id="0x7f040005" />
+    <public type="string" name="config_defaultCaptivePortalLoginPackageName" id="0x7f050000" />
+    <public type="string" name="config_defaultDndAccessPackages" id="0x7f050001" />
+    <public type="string" name="config_defaultListenerAccessPackages" id="0x7f050002" />
+    <public type="string" name="config_defaultModuleMetadataProvider" id="0x7f050003" />
+    <public type="string" name="config_defaultQrCodeComponent" id="0x7f050004" />
+    <public type="string" name="config_defaultWellbeingPackage" id="0x7f050005" />
+    <public type="string" name="config_mms_user_agent" id="0x7f050006" />
+    <public type="string" name="config_mms_user_agent_profile_url" id="0x7f050007" />
+    <public type="string" name="config_qualified_networks_service_package" id="0x7f050008" />
+    <public type="string" name="config_systemSupervision" id="0x7f050009" />
+    <public type="string" name="config_wallpaperCropperPackage" id="0x7f05000a" />
+    <public type="string" name="config_wifi_tcp_buffers" id="0x7f05000b" />
+    <public type="string" name="config_wlan_data_service_class" id="0x7f05000c" />
+    <public type="string" name="config_wlan_data_service_package" id="0x7f05000d" />
+    <public type="string" name="config_wlan_network_service_class" id="0x7f05000e" />
+    <public type="string" name="config_wlan_network_service_package" id="0x7f05000f" />
+    <public type="string" name="wfcSpnFormat" id="0x7f050010" />
+    <string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.apps.wellbeing:com.android.camera2:com.google.android.gms</string>
+    <string name="config_defaultListenerAccessPackages">com.android.launcher3:com.google.android.projection.gearhead</string>
+    <string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string>
+    <string name="config_defaultQrCodeComponent">com.mediatek.camera/.QrCodeActivity</string>
+    <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
+    <string name="config_mms_user_agent">Android-Mms/0.1</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_qualified_networks_service_package">com.android.phone</string>
+    <string name="config_systemSupervision">com.google.android.gms.supervision</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string>
+    <string name="config_wlan_data_service_class">com.mediatek.internal.telephony.data.IwlanDataService</string>
+    <string name="config_wlan_data_service_package">com.android.phone</string>
+    <string name="config_wlan_network_service_class">com.mediatek.internal.telephony.IWlanNetworkService</string>
+    <string name="config_wlan_network_service_package">com.android.phone</string>
+</resources>    
